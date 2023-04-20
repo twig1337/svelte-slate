@@ -1,0 +1,18 @@
+import type { Node, Ancestor, Editor } from 'slate';
+import type { Key } from './Key';
+export declare const NODE_TO_INDEX: WeakMap<Node, number>;
+export declare const NODE_TO_PARENT: WeakMap<Node, Ancestor>;
+export declare const EDITOR_TO_WINDOW: WeakMap<Editor, Window>;
+export declare const EDITOR_TO_ELEMENT: WeakMap<Editor, HTMLElement>;
+export declare const EDITOR_TO_PLACEHOLDER: WeakMap<Editor, string>;
+export declare const ELEMENT_TO_NODE: WeakMap<HTMLElement, Node>;
+export declare const NODE_TO_ELEMENT: WeakMap<Node, HTMLElement>;
+export declare const NODE_TO_KEY: WeakMap<Node, Key>;
+export declare const EDITOR_TO_KEY_TO_ELEMENT: WeakMap<Editor, WeakMap<Key, HTMLElement>>;
+export declare const IS_READ_ONLY: WeakMap<Editor, boolean>;
+export declare const IS_FOCUSED: WeakMap<Editor, boolean>;
+export declare const IS_DRAGGING: WeakMap<Editor, boolean>;
+export declare const IS_CLICKING: WeakMap<Editor, boolean>;
+export declare const EDITOR_TO_ON_CHANGE: WeakMap<import("slate").BaseEditor, () => void>;
+export declare const EDITOR_TO_RESTORE_DOM: WeakMap<import("slate").BaseEditor, () => void>;
+export declare const PLACEHOLDER_SYMBOL: string;

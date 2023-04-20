@@ -1,0 +1,16 @@
+export const NODE_TO_INDEX = new WeakMap();
+export const NODE_TO_PARENT = new WeakMap();
+export const EDITOR_TO_WINDOW = new WeakMap();
+export const EDITOR_TO_ELEMENT = new WeakMap();
+export const EDITOR_TO_PLACEHOLDER = new WeakMap();
+export const ELEMENT_TO_NODE = new WeakMap();
+export const NODE_TO_ELEMENT = new WeakMap();
+export const NODE_TO_KEY = new WeakMap();
+export const EDITOR_TO_KEY_TO_ELEMENT = new WeakMap();
+export const IS_READ_ONLY = new WeakMap();
+export const IS_FOCUSED = new WeakMap();
+export const IS_DRAGGING = new WeakMap();
+export const IS_CLICKING = new WeakMap();
+export const EDITOR_TO_ON_CHANGE = new WeakMap();
+export const EDITOR_TO_RESTORE_DOM = new WeakMap();
+export const PLACEHOLDER_SYMBOL = Symbol('placeholder');
